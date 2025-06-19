@@ -18,7 +18,6 @@ python3 manifest-kill.py \
   --output <signed_output_apk>
 ```
 
-    The --null-bytes value must be a multiple of 4.
 ## 🔧 Required Arguments
 
 | Argument        | Description                                       |
@@ -36,10 +35,5 @@ python3 manifest-kill.py \
 ## ⚠️ Important Rules
 
 - The `--null-bytes` value **must be a multiple of 4**.  
-- If not, the script will exit immediately with an error.
-
-### Example Error:
 
 ```bash
-$ python3 manifest-kill.py --apk app-debug.apk --null-bytes 13 --keystore my-release-key.jks --alias myalias --storepass ad2001 --keypass ad2001 --output final.apk
-[-] Error: --null-bytes must be a multiple of 4.
