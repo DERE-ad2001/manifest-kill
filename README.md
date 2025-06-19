@@ -16,6 +16,7 @@ python3 manifest-kill.py \
   --storepass <keystore_password> \
   --keypass <key_password> \
   --output <signed_output_apk>
+```
 
     The --null-bytes value must be a multiple of 4.
 ## 🔧 Required Arguments
