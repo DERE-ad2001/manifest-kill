@@ -36,4 +36,3 @@ python3 manifest-kill.py \
 
 - The `--null-bytes` value **must be a multiple of 4**.  
 
-```bash
